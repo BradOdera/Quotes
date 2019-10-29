@@ -11,7 +11,7 @@
             <div class="field">
                 <form (ngSubmit)='submitQuote(); quoteForm.reset()' #quoteForm='ngForm'>
                     <label>Author</label>
-                    <input placeholder="Mcu Character" type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
+                    <input placeholder="Artist or Author" type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
                     <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
                         <p>Author is required</p>
                     </div>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="field">
                             <label>Submitted by</label>
-                            <input placeholder="name" type="text" required class="form-control" id="submitter" [(ngModel)]="newQuote.submitter" name="submitter" #submitter='ngModel'>
+                            <input placeholder="Enter your name" type="text" required class="form-control" id="submitter" [(ngModel)]="newQuote.submitter" name="submitter" #submitter='ngModel'>
                         </div>
                     </div>
                     <div class="form-group">
