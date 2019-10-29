@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
-  quote = 'Marvel-Movies quotes'
-  quotes:string[];
+
+  quote = 'Music quotes'
+  quotes: string[];
 
 
 
-  constructor(){
-    this.quotes=['Gonna eat till I’m tired and then sleep till I’m hungry','Never underestimate the stupidity of idiots','What’s a nice place like you doing in a girl like this']
+  constructor() {
+    this.quotes = ['Music is like a dream. One that I cannot hear.', 'Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.', 'One good thing about music, when it hits you, you feel no pain.']
   }
 }
