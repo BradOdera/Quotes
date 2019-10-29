@@ -1,16 +1,16 @@
- import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MusicQuotesComponent } from './music-quotes.component';
 
-describe('MarvelQuotesComponent', () => {
+describe('MusicQuotesComponent', () => {
   let component: MusicQuotesComponent;
   let fixture: ComponentFixture<MusicQuotesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MusicQuotesComponent ]
+      declarations: [MusicQuotesComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

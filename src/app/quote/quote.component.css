@@ -1,8 +1,11 @@
-.header{
+.header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(252, 0, 0);
 }
- 
-.mav{
+
+.mus {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
 }
