@@ -1,18 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-  background: url('images/music-is-life-thats-why-our-hearts-have-beats-3840x2160-2160.jpg') center;
 
-  background-position: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  
-
+body {
+    background: url('images/music-is-life-thats-why-our-hearts-have-beats-3840x2160-2160.jpg') center;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
-.overlay{
-   z-index: 2;
-   background-color: rgba(37,42,48, 0.1);
+.overlay {
+    z-index: 2;
+    color: rgba(231, 68, 19, 0.925);
 }
