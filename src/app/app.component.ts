@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quotes';
-  heading = 'Music Quotes'
+  
+  quote = 'Marvel-Movies quotes'
+  quotes:string[];
+
+
+
+  constructor(){
+    this.quotes=['Gonna eat till I’m tired and then sleep till I’m hungry','Never underestimate the stupidity of idiots','What’s a nice place like you doing in a girl like this']
+  }
 }
